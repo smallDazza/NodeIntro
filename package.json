@@ -1,0 +1,16 @@
+{
+  "name": "nodeintro",
+  "version": "1.0.0",
+  "description": "Dice Rolling Application in the termnal.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    ""
+  },
+  "keywords": [
+    "dice",
+    "game"
+  ],
+  "author": "Dazza",
+  "license": "ISC"
+}
