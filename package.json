@@ -5,12 +5,20 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    ""
+    "dev": "nodemon src/index.js",
+    "docs": "jsdoc ./src/*"
   },
   "keywords": [
     "dice",
     "game"
   ],
   "author": "Dazza",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.0.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4",
+    "nodemon": "^3.1.7"
+  }
 }
